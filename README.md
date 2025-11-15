@@ -125,7 +125,7 @@ python -m venv venv
 ### 3. Ativar ambiente
 
 ``` bash
-.env\Scriptsctivate
+.\venv\Scripts\activate
 ```
 
 ### 4. Instalar dependências
