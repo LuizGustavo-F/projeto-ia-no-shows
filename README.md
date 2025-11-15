@@ -35,35 +35,35 @@ O projeto foi desenvolvido em **Python 3** e estruturado em um
 
 ### Bibliotecas Utilizadas
 
--   **Pandas** -- manipulação e limpeza de dados\
--   **Scikit-learn** -- pré-processamento, divisão de dados e métricas\
--   **TensorFlow / Keras** -- construção e treinamento da rede neural\
+-   **Pandas** -- manipulação e limpeza de dados
+-   **Scikit-learn** -- pré-processamento, divisão de dados e métricas
+-   **TensorFlow / Keras** -- construção e treinamento da rede neural
 -   **Matplotlib** -- visualização do aprendizado
 
 ### Fluxo do Projeto
 
-1.  **Carga e Limpeza:**\
+1.  **Carga e Limpeza:**
     Normalização de nomes das colunas e interpretação de datas.
 
 2.  **Engenharia de Features:**
 
-    -   Conversão de categorias (Gender)\
-    -   Cálculo de `WaitingDays`\
+    -   Conversão de categorias (Gender)
+    -   Cálculo de `WaitingDays`
     -   Extração do dia da semana (`AppointmentDayOfWeek`)
 
-3.  **Pré-processamento:**\
+3.  **Pré-processamento:**
     Normalização com `StandardScaler`.
 
 4.  **Modelo MLP:**
 
-    -   `Dense(32, relu)`\
-    -   `Dense(16, relu)`\
+    -   `Dense(32, relu)`
+    -   `Dense(16, relu)`
     -   `Dense(1, sigmoid)`
 
 5.  **Treinamento:**
 
-    -   Otimizador: `adam`\
-    -   Função de perda: `binary_crossentropy`\
+    -   Otimizador: `adam`
+    -   Função de perda: `binary_crossentropy`
     -   10 épocas
 
 ------------------------------------------------------------------------
@@ -84,7 +84,7 @@ comparecem**.
 ### ❗ Conclusão-Chave
 
 O modelo "**trapaceou**" ao prever "Compareceu" para quase todos os
-pacientes.\
+pacientes.
 O recall da classe **Faltou** foi de apenas **1%**, identificando apenas
 **53 de 4.464** ausências reais.
 
@@ -100,7 +100,7 @@ consegue lidar com o desbalanceamento.
 ### Aplicações se o modelo funcionasse:
 
 -   **Engenharia de Produção/Operações:** otimizar o uso de recursos de
-    saúde.\
+    saúde.
 -   **Engenharia de Software:** sistemas automáticos que disparam
     lembretes ou confirmam consultas apenas para pacientes com alto
     risco de faltar.
@@ -109,9 +109,9 @@ consegue lidar com o desbalanceamento.
 
 ## 🔧 Próximos Passos (Melhorias)
 
--   Aplicar **SMOTE** para balanceamento.\
--   Ajustar pesos com `class_weight='balanced'`.\
--   Testar modelos mais robustos que MLP simples.\
+-   Aplicar **SMOTE** para balanceamento.
+-   Ajustar pesos com `class_weight='balanced'`.
+-   Testar modelos mais robustos que MLP simples.
 -   Otimizar hiperparâmetros.
 
 ------------------------------------------------------------------------
@@ -134,7 +134,7 @@ python -m venv venv
 ### 3. Ativar ambiente
 
 ``` bash
-.env\Scriptsctivate
+.env\Scriptsctivate
 ```
 
 ### 4. Instalar dependências
