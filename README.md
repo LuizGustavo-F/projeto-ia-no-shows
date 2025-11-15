@@ -107,15 +107,6 @@ consegue lidar com o desbalanceamento.
 
 ------------------------------------------------------------------------
 
-## 🔧 Próximos Passos (Melhorias)
-
--   Aplicar **SMOTE** para balanceamento.
--   Ajustar pesos com `class_weight='balanced'`.
--   Testar modelos mais robustos que MLP simples.
--   Otimizar hiperparâmetros.
-
-------------------------------------------------------------------------
-
 ## ⚙️ Como Executar Este Projeto
 
 ### 1. Clonar o repositório
